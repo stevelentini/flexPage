@@ -7,9 +7,11 @@ header {
 
 .flex-container {
     display: flex;
-    flex: 0 2 1;
+    flex: 1;
     justify-items: right;
     align-items: center;
+    background-color: blueviolet;
+    flex-direction: row;
 }
 
 .logo {
